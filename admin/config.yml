@@ -2,13 +2,13 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "public/experiment/images"
+media_folder: "/experiment/images"
 public_folder: "/experiment/images"
 
 collections:
   - name: "Experiment"
     label: "Experiment"
-    folder: "src/experiment"
+    folder: "/experiment"
     create: true
     slug: "experiment"
     fields: 
