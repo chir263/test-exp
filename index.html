@@ -1,0 +1,22 @@
+<html>
+  <body>
+    <main>
+      <button onclick="loadURL()">Edit Experiment</button>
+    </main>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+      function loadURL() {
+        var url = "./admin"; // Replace with your desired URL
+        window.location.href = url;
+      }
+    </script>
+  </body>
+</html>
