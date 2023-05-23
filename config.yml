@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: chir263/test-exp
+  name: git-gateway
   branch: master
 
 media_folder: "/experiment/images"
