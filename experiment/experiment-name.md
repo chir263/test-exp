@@ -3,4 +3,4 @@ title: Experiment Name
 ---
 Circuit Adder
 
-![](/static/images/uploads/spaceship.png)
+![](/experiment/images/icons8-play-button-circled-64.png)
